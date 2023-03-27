@@ -1,10 +1,8 @@
-import IconLogo from "./components/IconLogo";
+import Logo from "./components/Logo";
 
 const App = () => (
   <>
-    <IconLogo />
-
-    <p>Teste</p>
+    <Logo />
   </>
 );
 
