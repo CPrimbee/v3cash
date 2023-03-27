@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 const Name = styled.figcaption`
-
+  text-shadow: 0.1rem 0.1rem 0 var(--color-purple), 
+              -0.1rem 0.1rem 0 var(--color-purple), 
+              0.1rem -0.1rem 0 var(--color-purple),
+              -0.1rem -0.1rem 0 var(--color-purple);
+  letter-spacing: 0.2rem;
 `
 
 const Logo = styled.figure`
